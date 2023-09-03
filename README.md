@@ -1,11 +1,11 @@
-About ratarmountcore
-====================
+About ratarmountcore-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ratarmountcore-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mxmlnkn/ratarmount/tree/master/core
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ratarmountcore-feedstock/blob/main/LICENSE.txt)
 
 Summary: Random Access Read-Only Tar Mount Library
 
