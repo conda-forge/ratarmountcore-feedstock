@@ -1,5 +1,5 @@
 {% set name = "ratarmountcore" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ratarmountcore-{{ version }}.tar.gz
-  sha256: 6214e084cc608032e4ac1c99a8cad86f9b529c94149a2d280e70d2937c777ac9
+  sha256: 27f945ac52fdd17e946986aef8024abc3ac587ce5d4e1bd261799950f16a3f68
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
