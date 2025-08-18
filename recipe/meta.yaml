@@ -18,16 +18,18 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - wheel
+    - setuptools >=61,<=82
   run:
     - python >={{ python_min }}
-    - dataclasses
     - importlib-metadata
   run_constrained:
     - indexed_gzip >=1.6.3,<2
     - indexed_zstd >=1.3.1,<2
+    - py7zr >=1.0,<2
     - python-libarchive-c >=5.1,<6
     - python-xz >=0.4,<0.5
-    - rarfile =4.*
+    - rarfile >=4.1,<5
 
 test:
   imports:
